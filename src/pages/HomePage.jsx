@@ -1,7 +1,8 @@
+import HeroSection from "../components/heroComponents/HeroSection"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <HeroSection />
   )
 }
 

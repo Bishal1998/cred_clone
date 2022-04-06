@@ -1,10 +1,15 @@
 @import './common/font/fonts.css';
+@import './common/variable.css';
+@import './common/styles/CommonClasses.css';
 
 body {
   margin: 0;
   font-family: Gilroy, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color) !important;
+  color: var(--white);
+  box-sizing: border-box;
 }
 
 code {
