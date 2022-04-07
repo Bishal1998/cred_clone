@@ -1,3 +1,4 @@
+import Brand from "../components/brand/Brand";
 import Header from "../components/common/Header/Header";
 import Experience from "../components/experience/Experience";
 import FeelSpecial from "../components/feelSpecial/FeelSpecial";
@@ -12,6 +13,7 @@ const HomePage = () => {
             <HeroSection />
             <ProductShow />
             <FeelSpecial />
+            <Brand />
             <Experience />
             <Security />
         </>
