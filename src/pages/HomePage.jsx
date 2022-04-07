@@ -1,4 +1,5 @@
 import Header from "../components/common/Header/Header";
+import FeelSpecial from "../components/feelSpecial/FeelSpecial";
 import HeroSection from "../components/heroComponents/HeroSection"
 import ProductShow from "../components/productShow/ProductShow";
 
@@ -8,6 +9,7 @@ const HomePage = () => {
             <Header />
             <HeroSection />
             <ProductShow />
+            <FeelSpecial />
         </>
     )
 }
