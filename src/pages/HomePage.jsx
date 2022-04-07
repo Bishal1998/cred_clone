@@ -3,6 +3,7 @@ import Experience from "../components/experience/Experience";
 import FeelSpecial from "../components/feelSpecial/FeelSpecial";
 import HeroSection from "../components/heroComponents/HeroSection"
 import ProductShow from "../components/productShow/ProductShow";
+import Security from "../components/security/Security";
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
             <ProductShow />
             <FeelSpecial />
             <Experience />
+            <Security />
         </>
     )
 }
