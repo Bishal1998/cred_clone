@@ -5,6 +5,7 @@ import FeelSpecial from "../components/feelSpecial/FeelSpecial";
 import HeroSection from "../components/heroComponents/HeroSection"
 import ProductShow from "../components/productShow/ProductShow";
 import Security from "../components/security/Security";
+import WindowPeak from "../components/windowPeak/WindowPeak";
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <FeelSpecial />
             <Brand />
             <Experience />
+            <WindowPeak />
             <Security />
         </>
     )
